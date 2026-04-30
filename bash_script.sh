@@ -29,3 +29,10 @@ else
     echo "Error: Backup failed."
     exit 1
 fi
+# --- EXTENSION POINT ---
+# You can continue the script here. Suggestions:
+# 1. Add a function to delete backups older than 7 days.
+# 2. Add an rsync command to move the backup to a remote server.
+# 3. Send a notification/email upon success.
+
+echo "Process completed at $(date)"
