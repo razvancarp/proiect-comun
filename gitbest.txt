@@ -20,3 +20,5 @@ Pull înainte de Push: Descarcă ultimele modificări ale colegilor înainte de 
 Folosește Pull Requests (PR): Nu uni codul de capul tău. Cere o recenzie (code review) de la un coleg pentru a menține calitatea.
 
 Nu rescrie istoricul public: Evită git push --force pe ramuri pe care lucrează și alți oameni. Poți strica tot repository-ul colegilor.
+
+Comenzi "Salvatoare" (Cheat Sheet)AcțiuneComandăVerifică statusulgit statusAdaugă totgit add .Commit cu mesajgit commit -m "Mesaj scurt"Actualizează localgit pull origin mainTrimite pe servergit push origin nume-branch
