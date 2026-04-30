@@ -1,0 +1,22 @@
+Iată un rezumat esențial cu cele mai importante bune practici pentru Git, structurat să fie ușor de urmărit:
+
+1. Workflow & Commit-uri
+Commit-uri mici și dese: Nu aștepta până termini tot proiectul. Un commit ar trebui să reprezinte o singură unitate logică de muncă.
+
+Mesaje de commit clare: Folosește imperativul (ex: Add user authentication în loc de I added some stuff).
+
+Nu da commit la fișiere inutile: Folosește mereu un fișier .gitignore pentru a exclude node_modules, log-uri, fișiere .env sau setări de IDE.
+
+2. Branching (Ramificații)
+Nu lucra direct pe main: Folosește branch-uri dedicate pentru task-uri (ex: feature/login-page sau bugfix/header-typo).
+
+Păstrează main curat: Ramura principală ar trebui să conțină mereu cod stabil, gata de producție.
+
+Șterge branch-urile vechi: După ce un merge este finalizat, șterge ramura locală și cea de pe server pentru a evita aglomerația.
+
+3. Sincronizare & Colaborare
+Pull înainte de Push: Descarcă ultimele modificări ale colegilor înainte de a urca codul tău, pentru a rezolva eventualele conflicte local.
+
+Folosește Pull Requests (PR): Nu uni codul de capul tău. Cere o recenzie (code review) de la un coleg pentru a menține calitatea.
+
+Nu rescrie istoricul public: Evită git push --force pe ramuri pe care lucrează și alți oameni. Poți strica tot repository-ul colegilor.
